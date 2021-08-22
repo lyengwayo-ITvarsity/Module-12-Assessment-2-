@@ -1,0 +1,83 @@
+body{
+
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #D8D8D8;  
+}
+
+form {
+  border: 2px solid #f1f1f1;
+} 
+
+table{
+  border: 3px solid #f1f1f1;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00BFFF;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
+} 
+
+button:hover {
+  opacity: 0.8;
+}
+
+#refresh, #addContact {
+  background-color: #2E2EFE;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 270px;
+} 
+
+#avatarImage{
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+
+@media (min-width: 1200px) {
+  .body {
+      margin-top: 10rem;
+  }
+
+  #refresh, #addContact {
+    margin-top: 9rem;
+  }
+}
+
+@media (max-width: 540px) {
+  table {
+      display: none;
+  }
+  
+  #avatarImage{
+      margin-top: 2rem;
+  }
+}
